@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/google_books_api'
+
+GoogleBooksApi.search ARGV[0]
